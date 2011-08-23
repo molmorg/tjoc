@@ -10,4 +10,25 @@ Routes that need to be created:
 /Feed --> post feed
 /Edit/([^/]+)/ --> edit post
 /([^/]+).aspx --> redirect view
-/([^/]+) -- view post
+/([^/]+) --> view post
+/Search? --> search (need inverted index search)
+
+Templates
+=========
+
+feeds/comment
+feeds/post
+master
+view comment
+view post
+edit post
+edit comment
+upload file
+
+Important features
+==================
+Authentication
+Captcha
+Binary uploads
+Fast Datastore
+Inverted Index Search
