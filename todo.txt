@@ -1,0 +1,13 @@
+Routes that need to be created:
+===============================
+
+/ --> Home
+/new --> New post
+/upload --> uploadfile
+/([^/]+)/comments/([^/]+)/(reject|approve) --> delete comment
+/uploads/(.*) --> upload resource
+/Feed/([^/]+)/Comments --> comment feed
+/Feed --> post feed
+/Edit/([^/]+)/ --> edit post
+/([^/]+).aspx --> redirect view
+/([^/]+) -- view post
